@@ -1,0 +1,23 @@
+{
+
+  "name": "spamreg",
+
+  "version": "1.0.0",
+  "description": "spam reg pb",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nopal",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dedent-js": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.1.0",
+    "moment-timezone": "^0.5.34",
+    "performance-now": "^2.1.0",
+    "puppeteer": "^14.4.1",
+    "spinnies": "^0.5.1"
+  }
+}

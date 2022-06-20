@@ -48,7 +48,8 @@ async function spamreg (url, i) {
   })
   const page = await browser.newPage()
   await page.goto(url, {
-    waitUntil: 'networkidle0'
+    waitUntil: 'networkidle0',
+    timeout: 0
   })
   var obj = {
     username: `nopal${makeChar(5) + ack}`,

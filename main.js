@@ -40,7 +40,11 @@ async function spamreg (url, i) {
   })
   
   const browser = await puppeteer.launch({
-    headless: true
+    headless: true,
+    args: [
+      '--no-sandbox',
+      '--single-process'
+      ]
   })
   const page = await browser.newPage()
   await page.goto(url, {
